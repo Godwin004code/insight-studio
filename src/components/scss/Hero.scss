@@ -1,0 +1,76 @@
+
+.hero {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.insight-hero-text {
+    margin-top: 150px;
+}
+.insight-first-paragraph {
+    font-size: 48px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 20px;
+
+}
+
+.hero .insight-bold {
+    font-size: 48px;
+font-style: normal;
+font-weight: 800;
+}
+
+.insight-second-paragraph {
+    color: #71717A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px
+}
+.insight-socials {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.insight-btn {
+    display: flex;
+width: 200px;
+height: 56px;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+background: var(--Primary-Black, #000);
+border-radius: 4px;
+transition: all ease 500ms;
+
+& .btn {
+    color: white;
+}
+}
+.insight-s {
+    display: flex;
+width: 56px;
+height: 56px;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+background: var(--Primary-Black, #000);
+border-radius: 4px;
+transition: all ease 500ms;
+
+
+}
+.insight-s:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.insight-s:hover svg path {
+    fill: black;
+}
