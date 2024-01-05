@@ -91,6 +91,11 @@ header .header-wrapper {
     color: white;
   }
     
+  .mobile__nav {
+    & section {
+      display: none;
+    }
+  }
 
 section button {
     width: 140px;

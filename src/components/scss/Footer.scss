@@ -16,3 +16,17 @@ footer {
         }
     }
 }
+
+@media only screen and (max-width: 500px) {
+    footer {
+        & img {
+            width: 150px;
+      height: 50px;
+        }
+        & .footer-wrapper {
+            &-text {
+                margin-top: 16px;
+            }
+        }
+    }
+}
