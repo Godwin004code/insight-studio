@@ -5,7 +5,8 @@ import '../scss/About.scss'
 const About = () => {
   return (
     <section className='insight-about'>
-        <div>
+ 
+        <div className='insight-about-img'>
             <img src={AboutImg} alt="About Image" />
         </div>
         <div className='insight-about-text'>

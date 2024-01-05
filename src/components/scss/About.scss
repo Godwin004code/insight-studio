@@ -32,3 +32,19 @@ margin-bottom: 20px;
         }
     }
 }
+
+
+@media only screen and (max-width: 500px) {
+    .insight-about {
+        flex-direction: column;
+        &-text {
+            width: 100%;
+        }
+        &-img {
+            width: 100%;
+            & img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -31,7 +31,7 @@ const Projects = () => {
             </section>
             <section className='project'>
                 
-                <div className='text'>
+                <div className='text above'>
                     <h1>02</h1>
                     <h3>FindMyCleaner - UK fast-growing cleaner booking website</h3>
                     <p>
@@ -43,7 +43,7 @@ const Projects = () => {
                     </a>
                     </div>
                 </div>
-                <div className='img'>
+                <div className='img below'>
                     <img src={Project2} alt="project one" />
                 </div>
             </section>
@@ -66,7 +66,7 @@ const Projects = () => {
             </section>
             <section className='project'>
                 
-                <div className='text'>
+                <div className='text above'>
                     <h1>04</h1>
                     <h3>Facto - All inclusive marketplace</h3>
                     <p>
@@ -78,7 +78,7 @@ const Projects = () => {
                     </a>
                     </div>
                 </div>
-                <div className='img'>
+                <div className='img below'>
                     <img src={Project4} alt="project one" />
                 </div>
             </section>
@@ -102,7 +102,7 @@ const Projects = () => {
             </section>
             <section className='project'>
                 
-                <div className='text'>
+                <div className='text above'>
                     <h1>06</h1>
                     <h3>DreamTrips International -</h3>
                     <p>
@@ -114,7 +114,7 @@ const Projects = () => {
                     </a>
                     </div>
                 </div>
-                <div className='img'>
+                <div className='img below'>
                     <img src={Project6} alt="project one" />
                 </div>
             </section>

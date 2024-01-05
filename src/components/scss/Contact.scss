@@ -100,3 +100,17 @@ transition: all ease 500ms;
     color: white;
 }
 }
+
+@media only screen and (max-width: 500px) {
+    .contact-wrapper {
+        flex-direction: column;
+        width: 90%;
+        &-form, &-text {
+            width: 100%;
+        }
+        & h3 {
+            font-size: 20px;
+        }
+    }
+   
+}
