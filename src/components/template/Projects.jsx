@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <section className='project-wrapper'>
         <section className='project-wrapper-sub'>
-            <h2>My <span>Projects</span></h2>
+            <h2>Our <span>Projects</span></h2>
             <section className='project'>
                 <div className='img'>
                     <img src={Project1} alt="project one" />

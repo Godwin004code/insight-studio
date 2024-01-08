@@ -42,7 +42,7 @@ const Contact = () => {
             <p className='p'>
             Send us a message and we will reply under 1 hour.
             </p>
-            <h3>insightstudio@gmail.com</h3>
+            <h3>insightstudio247@gmail.com</h3>
             <h3>+1 (234) 567 8900</h3>
         </div>
     </div>

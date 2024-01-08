@@ -7,6 +7,7 @@ import Projects from './components/template/Projects';
 import Contact from './components/template/Contact';
 import Footer from './components/template/Footer';
 import Testimonial from './components/template/Testimonial';
+import Howwework from './components/template/Howwework';
 //import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Nav />
       <Hero />
       <About />
+      <Howwework />
       <Projects />
       <Testimonial />
       <Contact />
